@@ -1,10 +1,15 @@
 # Ethereum Transaction Monitor
 
-This Python script monitors Ethereum blockchain transactions using the `web3` library. It connects to the Ethereum network via Infura, logs transactions involving specified wallets, and performs actions based on transaction events. The script provides real-time monitoring of transactions and can automatically buy or sell DAI tokens based on specific conditions.
+This Python script monitors Ethereum blockchain transactions using the `web3` library. It connects to the Ethereum network via Infura, logs transactions involving specified wallets, and performs actions based on transaction events.
 
 ## Dependencies
 
 - **Python 3.x**
-- **web3 library**: Allows interaction with Ethereum nodes.
-- **logging module**: Configured to log transaction details and status.
+- **web3 library**: Enables interaction with Ethereum nodes.
+- **logging module**: Configured to log transaction details and statuses.
 
+### Install Dependencies
+To install the required dependencies, run the following command:
+
+```bash
+pip install web3 logging
